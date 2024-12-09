@@ -1,0 +1,2 @@
+employeeClient:
+  baseurl: "http://localhost:${wiremock.server.port}"

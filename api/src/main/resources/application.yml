@@ -1,2 +1,10 @@
 spring.application.name: employee-api
-server.port: 8111
+
+server:
+  port: 8111
+  error:
+    includeMessage: ALWAYS
+
+employeeClient:
+  readTimeout: 60s
+  baseurl: "http://localhost:8112"
